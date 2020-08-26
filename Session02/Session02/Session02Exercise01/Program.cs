@@ -10,8 +10,7 @@ namespace Session02Exercise01
 
             var integer = 0;
             string stringValue = "My stringvalue";
-
-            Console.WriteLine($"This is a number: {integer}");
+            Console.WriteLine($"This is a number: {integer}");           
             Console.WriteLine("The value of stringValue is: " + stringValue);
         }
     }
