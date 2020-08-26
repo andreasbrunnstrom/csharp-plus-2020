@@ -7,6 +7,10 @@ namespace Session02Exercise01
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var integer = 0;
+            
+            Console.WriteLine($"This is a number: {integer}");
         }
     }
 }
