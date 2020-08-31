@@ -82,9 +82,10 @@ namespace Session04Example
 
             for (int i = 0; i < supportedLanguages.Length; i++)
             {
-                var currentLanguage = supportedLanguages[i];
-                if (currentLanguage == language)
-                    return i;
+                //var currentLanguage = supportedLanguages[i];
+                //if (currentLanguage == language)
+                    if (supportedLanguages[i] == language)
+                        return i;
             }
 
             return -1;
